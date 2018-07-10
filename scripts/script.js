@@ -25,11 +25,11 @@ function mouseEnter() {
 function mouseEnterHeader() {
   var ti = 150;
   setTimeout(function() {
-    document.getElementById("headerimg").src = "../images/portfolio-index-filter-0.jpg";
+    document.getElementById("headerimg").src = "../images/portfolio-index-filter-15.jpg";
       setTimeout(function() {
-        document.getElementById("headerimg").src = "../images/portfolio-index-filter-0.jpg";
+        document.getElementById("headerimg").src = "../images/portfolio-index-filter-10.jpg";
           setTimeout(function() {
-            document.getElementById("headerimg").src = "../images/portfolio-index-filter-0.jpg";
+            document.getElementById("headerimg").src = "../images/portfolio-index-filter-5.jpg";
               setTimeout(function() {
                 document.getElementById("headerimg").src = "../images/portfolio-index-filter-0.jpg";
                 }, ti);
@@ -44,13 +44,13 @@ function mouseoutHeader() {
   // document.getElementById("headerimg").src = "../images/../images/portfolio-index-filter-20.jpg";
   var to = 150;
   setTimeout(function() {
-    document.getElementById("headerimg").src = "../images/portfolio-index-filter-0.jpg";
+    document.getElementById("headerimg").src = "../images/portfolio-index-filter-5.jpg";
       setTimeout(function() {
-        document.getElementById("headerimg").src = "../images/portfolio-index-filter-0.jpg";
+        document.getElementById("headerimg").src = "../images/portfolio-index-filter-10.jpg";
           setTimeout(function() {
-            document.getElementById("headerimg").src = "../images/portfolio-index-filter-0.jpg";
+            document.getElementById("headerimg").src = "../images/portfolio-index-filter-15.jpg";
               setTimeout(function() {
-                document.getElementById("headerimg").src = "../images/portfolio-index-filter-0.jpg";
+                document.getElementById("headerimg").src = "../images/portfolio-index-filter-20.jpg";
                 }, to);
             }, to);
         }, to);

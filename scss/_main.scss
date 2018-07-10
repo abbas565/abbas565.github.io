@@ -191,51 +191,6 @@ main {
         }       
     }
 
-//     .box2 {        
-//         grid-area: two;
-//         @include box-shadow;
-//         padding: $padding*3/4;
-//             @media screen and (max-width: $phonePortrait) {
-//             padding: $padding*.2;
-//             }
-       
-//         h2 {
-//             font-size: 2em;          
-//         }
-//         img{
-//             height: 100px;
-//             width: 100px;
-//         }
-
-// // box2 logos style start
-//        .box2-skills{
-//             display: flex;
-//             flex-direction: row;
-//             flex-wrap: wrap;
-//             justify-content: space-around;
-//             align-items:center;
-//             // flex: 1 1 40px;
-//                 .box2-skills-img{
-//                     border: 1px solid black;
-//                     margin-top: 15px;  
-//                     img{
-//                         position: relative;
-//                     }
-//                     h3{
-//                         .card-title {
-//                             position: absolute;
-//                             bottom: 0;
-//                             left: 0;
-//                             width: 100%;
-//                             margin: 0;
-//                             padding: 0px;
-//                             background-color: rgba(255,255,255, 0.4);
-//                         }
-//                     }                 
-//                 }
-
-//------------box2-h3-start
-
 .box2 {        
     grid-area: two;
     color: white;
@@ -306,89 +261,8 @@ main {
                         text-align: center;                       
                     }
             }
-
-                // h3{
-                //         .card-title {
-                //             // float: right;
-                //             position: absolute;
-                //             bottom: 0;
-                //             left: 0;
-                //             width: 100%;
-                //             margin: 0;
-                //             padding: 0px;
-                //             background-color: rgba(255,255,255, 0.4);
-                //             color: red;
-                //         }
-                //     }                 
+               
             }
-
-//------------box2-h3-finish
-
-// box2 logos style end
-
-        // margin-top: 50px;
-        /* Use the repeat function to repeat same sized columns */
-        // grid-template-columns: 1fr 1fr 1fr 1fr;
-        // grid-auto-rows: auto;
-        // grid-row-gap: 20px;
-        // grid-column-gap: 20px;
-
-        // /* Note: use " . "  as a placeholder if you want
-        //    to leave one section of the grid blank */
-        // grid-template-areas:
-        //     "twoone twotwo twothree twofour"
-        //     "twofive twosix twoseven twoeight"
-        //     "twonine twoten twoeleven twotwelve"
-        //     "twothirteen twofourteen . .";
-
-        //     .box2-skills-img{
-        //         border: 1px solid black;
-        //         @include box-shadow;
-        //         padding: $padding*3/40;
-        //     }
-
-        //     .box2-01{
-        //         grid-area: twoone;              
-        //     }
-        //     .box2-02{
-        //         grid-area: twotwo;              
-        //     }
-        //     .box2-03{
-        //         grid-area: twothree;              
-        //     }
-        //     .box2-04{
-        //         grid-area: twofour;              
-        //     }
-        //     .box2-05{
-        //         grid-area: twofive;              
-        //     }
-        //     .box2-06{
-        //         grid-area: twosix;              
-        //     }
-        //     .box2-07{
-        //         grid-area: twoseven;              
-        //     }
-        //     .box2-08{
-        //         grid-area: twoeight;              
-        //     }
-        //     .box2-09{
-        //         grid-area: twonine;              
-        //     }
-        //     .box2-10{
-        //         grid-area: twoten;              
-        //     }
-        //     .box2-11{
-        //         grid-area: twoeleven;              
-        //     }
-        //     .box2-12{
-        //         grid-area: twotwelve;              
-        //     }
-        //     .box2-13{
-        //         grid-area: twothirteen;              
-        //     }
-        //     .box2-14{
-        //         grid-area: twofourteen;              
-        //     }
        }
 
     }

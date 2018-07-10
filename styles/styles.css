@@ -370,8 +370,7 @@ main {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
-        /* Use the repeat function to repeat same sized columns */ }
+        justify-content: space-around; }
         main .container-index .box2 .box2-skills .box2-skills-img {
           background-color: white;
           border: 1px solid black;
