@@ -42,11 +42,6 @@ Temporary Items
 .apdisk
 
 
-# Saas cache #
-##############
-
-.sass-cache
-
 
 # Sublime Text 2 or 3 specific files #
 #################################
