@@ -299,7 +299,7 @@ main {
     main .info-box .banner-title {
       font-size: 4vw;
       font-weight: 600;
-      color: white;
+      color: red;
       text-shadow: 6px 6px 0 rgba(0, 0, 0, 0.3); }
     main .info-box .banner-subtitle {
       font-size: 2vw;
