@@ -673,6 +673,20 @@ main {
         align-items: center;
         font-size: 2vw; 
         @include box-mixin-style;
+        img{
+            animation: fadeIn 2s 1 ease both;
+        }
+
+        /*Image Animation Keyframes start*/
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }           
+            to {
+                opacity: 1;
+            }
+        } 
+        /*Image Animation Keyframes finish*/ 
     } 
 
     .box14-schedule {

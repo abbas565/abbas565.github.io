@@ -18,6 +18,7 @@ function mouseEnter() {
     console.log(myid.id);
 
     document.getElementById("scheduleimg").src = "./images/schedule/Day"+ `${myid.id}` +".jpg";
+    // document.getElementById("scheduleimg").setAttribute('style', 'animation: fadeIn 2s 1 ease both');
 }
 // Showing images in box13 of schedule page finish
 

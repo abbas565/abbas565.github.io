@@ -45,22 +45,31 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center; }
-  header div img {
-    width: 200px;
-    height: auto; }
-  header div a {
-    text-decoration-line: none; }
-    header div a p {
-      margin: 0;
-      padding: 0;
-      line-height: 1;
-      color: white;
-      font-size: 4em;
-      padding: 30px 10px;
-      background-color: black; }
-      @media (max-width: 41.875em) {
-        header div a p {
-          font-size: 2.5em; } }
+  header div {
+    /* Banner Image Animation Keyframes start*/
+    /* Banner Image Animation Keyframes finish*/ }
+    header div img {
+      width: 200px;
+      height: auto;
+      animation: fadeIn 3s 1 ease both; }
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+    header div a {
+      text-decoration-line: none; }
+      header div a p {
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+        color: white;
+        font-size: 4em;
+        padding: 30px 10px;
+        background-color: black; }
+        @media (max-width: 41.875em) {
+          header div a p {
+            font-size: 2.5em; } }
   header h1 {
     margin: 0;
     padding: 0;
@@ -682,7 +691,16 @@ main {
       align-items: center;
       font-size: 2vw;
       border-radius: 5px;
-      background: linear-gradient(to bottom, rgba(54, 54, 56, 0.267), rgba(224, 208, 208, 0.267)); }
+      background: linear-gradient(to bottom, rgba(54, 54, 56, 0.267), rgba(224, 208, 208, 0.267));
+      /*Image Animation Keyframes start*/
+      /*Image Animation Keyframes finish*/ }
+      main .container-schedule .box13-schedule img {
+        animation: fadeIn 2s 1 ease both; }
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
     main .container-schedule .box14-schedule {
       grid-area: fourteen;
       border: .5px solid gray; }

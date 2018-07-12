@@ -10,8 +10,20 @@ header {
     div{
         img{
             width: 200px;
-            height: auto;
+            height: auto; 
+            animation:fadeIn 3s 1 ease both;                 
         }
+         /* Banner Image Animation Keyframes start*/
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                }           
+                to {
+                    opacity: 1;
+                }
+            } 
+        /* Banner Image Animation Keyframes finish*/             
+
         a{
             text-decoration-line: none;
             
