@@ -81,6 +81,20 @@ function myFunction() {
 
 //On Scroll Header finish
 
+// var udemyImg = document.getElementById("udemy-react-img");
+// var udemyTxt = document.getElementById("udemy-react-txt");
+// udemyTxt.onmouseenter=mouseEnterUdemy;
+
+
+
+// function mouseEnterUdemy(event) {
+//   var x = event.clientX;
+//   var y = event.clientY;
+// console.log("left:", x);
+// console.log("top:", y);
+//   document.getElementById("udemy-react-img").setAttribute("style", "display:block, left:x, top:y;");
+
+// }
 
 
 
